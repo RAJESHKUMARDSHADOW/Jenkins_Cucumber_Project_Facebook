@@ -1,5 +1,6 @@
 package org.step;
 
+import org.helper.BaseClass;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -10,9 +11,9 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class StepDefinition {
+public class StepDefinition extends BaseClass {
 	
-	WebDriver d;
+	
 	@Given("User have to enter facebook using chrome")
 	public void user_have_to_enter_facebook_using_chrome() {
 		WebDriverManager.chromedriver().setup();
@@ -49,6 +50,6 @@ public class StepDefinition {
 
 	@Then("User have to close the browser")
 	public void user_have_to_close_the_browser() {
-	   d.close();
+		System.out.println("Close The browser");
 	}
 }

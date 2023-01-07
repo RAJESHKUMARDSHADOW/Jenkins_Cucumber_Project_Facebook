@@ -1,5 +1,7 @@
 package org.helper;
 
-public class BaseClass {
+import org.openqa.selenium.WebDriver;
 
+public class BaseClass {
+	public static WebDriver d;
 }

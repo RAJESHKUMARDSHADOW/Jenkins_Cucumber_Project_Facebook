@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="0.111166">
+<testcase classname="To Validate facebook application login functionality" name="To Validate login functionality" time="0.09655">
+<system-out><![CDATA[Given User have to enter facebook using chrome..............................skipped
+When User enters valid username and invalid password........................skipped
+Then User have to receive the message as invalid credentials................skipped
+And User have to close the browser..........................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="To Validate facebook application login functionality" name="To validate forget password functionality" time="0.014616">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given User have to enter facebook using chrome..............................skipped
+When User enter forget password page........................................undefined
+Then User enter invalid username............................................undefined
+And User gets an invalid username displayed.................................undefined
+And User have to close the browser..........................................skipped
+]]></failure>
+</testcase>
+</testsuite>

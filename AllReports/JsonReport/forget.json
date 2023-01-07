@@ -1,0 +1,181 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-11-23T11:13:30.687Z",
+        "line": 5,
+        "name": "To Validate login functionality",
+        "description": "",
+        "id": "to-validate-facebook-application-login-functionality;to-validate-login-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 314000,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.aft(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3371900,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User have to enter facebook using chrome",
+            "match": {
+              "location": "StepDefinition.user_have_to_enter_facebook_using_chrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1642500,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User enters valid username and invalid password",
+            "match": {
+              "location": "StepDefinition.user_enters_valid_username_and_invalid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1578800,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User have to receive the message as invalid credentials",
+            "match": {
+              "location": "StepDefinition.user_have_to_receive_the_message_as_invalid_credentials()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2055100,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User have to close the browser",
+            "match": {
+              "location": "StepDefinition.user_have_to_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Facebook"
+          },
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-23T11:13:30.992Z",
+        "line": 12,
+        "name": "To validate forget password functionality",
+        "description": "",
+        "id": "to-validate-facebook-application-login-functionality;to-validate-forget-password-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 34400,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.aft(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1217000,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User have to enter facebook using chrome",
+            "match": {
+              "location": "StepDefinition.user_have_to_enter_facebook_using_chrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "User enter forget password page",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "User enter invalid username",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "User gets an invalid username displayed",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1231500,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "User have to close the browser",
+            "match": {
+              "location": "StepDefinition.user_have_to_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Facebook"
+          },
+          {
+            "name": "@Forget"
+          }
+        ]
+      }
+    ],
+    "name": "To Validate facebook application login functionality",
+    "description": "",
+    "id": "to-validate-facebook-application-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:Login.feature",
+    "tags": [
+      {
+        "name": "@Facebook",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
